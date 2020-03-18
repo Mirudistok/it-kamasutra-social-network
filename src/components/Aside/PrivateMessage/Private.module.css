@@ -1,0 +1,36 @@
+.privateMessage{
+    height: 190px;
+    width: 80%;
+    background-color: rgb(134, 219, 171);
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 1px rgb(5, 10, 51);
+}
+.privateMessage__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 217, 255, 0.63);
+    font-size: 30px;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(45, 31, 61);
+    border-radius: 20px;
+}
+.privateMessage__title{
+    font-size: 19px;
+    font-weight: bold;
+}
+.privateMessage__item.active{
+    background-color: rgb(20, 245, 114);
+    color: #fff;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+}

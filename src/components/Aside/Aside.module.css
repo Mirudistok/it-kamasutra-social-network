@@ -1,0 +1,17 @@
+.aside {
+    grid-area: app_aside;
+    background-color: #5da0ec;
+    border-radius: 1px;
+}
+.item{
+    font-weight: bold;
+    font-size: 28px;
+    color: red;
+    padding-left: 10px;
+}
+.item a:hover{
+    color: rgb(175, 114, 245);
+}
+.item a.active{
+    color: #ffd700;
+}

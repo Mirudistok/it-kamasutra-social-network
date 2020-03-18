@@ -1,0 +1,24 @@
+.formControl.formControlError input,
+.formControl.formControlError textarea{
+    border: 1px solid red;
+}
+
+.formControl.formControlError span{
+    color: red;
+}
+
+.formSummaryError{
+    background-color:rgba(229, 255, 0, 0.103);
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid red;
+    padding: 5px;
+    color: rgb(234, 236, 89);
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 0 4px 1px rgb(255, 0, 0), -1px 0 10px 1px rgb(247, 196, 196);
+    margin: 10px 0 10px 7px;
+    border-radius: 3px;
+    letter-spacing: 1.2px;
+    cursor: help;
+}

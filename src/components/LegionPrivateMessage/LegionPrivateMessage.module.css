@@ -1,0 +1,68 @@
+.legionPrivateMessage{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(221, 248, 225);
+    padding: 20px;
+}
+.legionPrivateMessage__box{
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.legionPrivateMessage__user{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(130, 214, 235);
+    border-radius: 3px;
+    padding: 10px;
+}
+.legionPrivateMessage__message{
+    width: 65%;
+    background-color: rgb(50, 202, 139);
+    border-radius: 3px;
+    padding: 10px;
+}
+.legionPrivateMessage__title{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 4px solid rgb(5, 11, 99);
+    margin-bottom: 30px;
+}
+.legionPrivateMessage__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.legionPrivateMessage__form textarea{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 90px;
+    font-size: 18px;
+    padding: 7px;
+    font-weight: 700;
+    border: none;
+    resize: none;
+    border-radius: 5px;
+}
+.legionPrivateMessage__form textarea::placeholder{
+    font-size: 18px;
+}
+.legionPrivateMessage__form button{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(205, 223, 235);
+    cursor: pointer;
+    margin: 5px;
+    outline: none;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.legionPrivateMessage__form button:hover{
+    background-color: rgb(53, 168, 245);
+    color: #ffffff;
+}
